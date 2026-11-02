@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>Зарплата курьера: калькулятор дохода по городам России</title>
+<meta name="description" content="Зарплата курьера: сколько выходит в вашем городе — ориентиры дохода по 153 городам России и тарифам (пешком, велосипед, авто). Зависит от часов и сезона.">
+<link rel="canonical" href="https://xn----7sbbgi3byayj6h.xn--p1ai/zarplata/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Зарплата курьера: калькулятор дохода по городам России">
+<meta property="og:description" content="Зарплата курьера: сколько выходит в вашем городе — ориентиры дохода по 153 городам России и тарифам (пешком, велосипед, авто). Зависит от часов и сезона.">
+<meta property="og:url" content="https://xn----7sbbgi3byayj6h.xn--p1ai/zarplata/">
+<meta property="og:site_name" content="ДОСТАВЬ-КА">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://xn----7sbbgi3byayj6h.xn--p1ai/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="yandex-verification" content="0b6af744f743629c">
+<meta name="mitgo-verification" content="56451569-58cc-4dab-8195-fc2591b117d2" />
+<meta name="theme-color" content="#f6f8ee">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>(function(){try{if(localStorage.getItem('dk-theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/style.css?v=52de47678f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://xn----7sbbgi3byayj6h.xn--p1ai/"}, {"@type": "ListItem", "position": 2, "name": "Зарплата курьера", "item": "https://xn----7sbbgi3byayj6h.xn--p1ai/zarplata/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="ДОСТАВЬ-КА — парк курьеров"><img class="vid-light" src="/img/logo-anim-t.webp" width="248" height="140" alt="ДОСТАВЬ-КА — парк курьеров"><img class="vid-dark" style="display:none" src="/img/logo-anim-dark-t.webp" width="248" height="140" alt="ДОСТАВЬ-КА — парк курьеров"></a>
+    <script>(function(){if(document.documentElement.getAttribute('data-theme')==='dark'){var l=document.querySelector('.logo .vid-light'),d=document.querySelector('.logo .vid-dark');l.style.display='none';d.style.display='block';}})()</script>
+    <button class="nav-toggle" aria-label="Меню" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="/#how">Как начать</a>
+      <a href="/#money">Заработок</a>
+      <a href="/#faq">Вопросы</a>
+      <a href="/articles/">Статьи</a>
+      <a href="/gorod/">Города</a>
+      <a class="btn" href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener">Подключиться</a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Переключить светлую/тёмную тему">🌙</button>
+    </nav>
+  </div>
+</header>
+<article class="article">
+  <div class="wrap"><div class="article-inner">
+    <div class="breadcrumbs"><a href="/">Главная</a> → Зарплата по городам</div>
+    <h1>Зарплата курьера: калькулятор дохода и ориентиры по городам</h1>
+    <div class="article-meta">Сколько реально выходит у курьера — и почему цифра в каждом городе своя. Выберите город и посмотрите ориентир по тарифам.</div>
+    <div class="article-body">
+      <p>Зарплата курьера зависит от города, транспорта, числа часов на линии и сезона — единой цифры для всех не существует. Поэтому мы не рисуем одну цифру «для всех»: на странице каждого города — свой ориентир по тарифам, а здесь собрали все города в одном месте.</p>
+
+      <h2>Калькулятор дохода курьера</h2>
+      <div class="card earn-calc reveal">
+        <div class="earn-calc-controls">
+          <div class="earn-calc-group">
+            <span class="earn-calc-label">Город</span>
+            <div class="earn-calc-tabs">
+              <button type="button" class="btn-ghost earn-tab active" data-city="msk">Москва</button>
+              <button type="button" class="btn-ghost earn-tab" data-city="spb">Санкт-Петербург</button>
+              <button type="button" class="btn-ghost earn-tab" data-city="other">Другой город</button>
+            </div>
+          </div>
+          <div class="earn-calc-group">
+            <span class="earn-calc-label">Как возите</span>
+            <div class="earn-calc-tabs">
+              <button type="button" class="btn-ghost earn-tab active" data-transport="walk">Пешком</button>
+              <button type="button" class="btn-ghost earn-tab" data-transport="bike">Велосипед</button>
+              <button type="button" class="btn-ghost earn-tab" data-transport="car">Авто</button>
+              <button type="button" class="btn-ghost earn-tab" data-transport="cargo">Грузовой</button>
+            </div>
+          </div>
+          <div class="earn-calc-group">
+            <span class="earn-calc-label">Часов в день: <b data-hours-out>6</b></span>
+            <input type="range" min="2" max="12" value="6" step="1" data-hours class="earn-calc-slider" aria-label="Часов в день">
+          </div>
+          <div class="earn-calc-group">
+            <span class="earn-calc-label">Дней в неделю: <b data-days-out>5</b></span>
+            <input type="range" min="1" max="7" value="5" step="1" data-days class="earn-calc-slider" aria-label="Дней в неделю">
+          </div>
+        </div>
+        <div class="earn-calc-output">
+          <div class="earn-calc-result">Двигайте ползунки — посчитаем</div>
+          <p class="earn-calc-sub">Ориентир по ставкам курьеров парка. Сколько реально выходит в вашем городе — покажет первая неделя на линии.</p>
+          <a class="btn btn-lg" href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener">Подключиться и проверить на деле</a>
+        </div>
+      </div>
+      <h2>Как считает калькулятор</h2>
+      <p>База — ставки курьеров нашего парка в Москве: велосипед 800–1 000 ₽ в час, авто 800–1 200 ₽ в час, грузовой тариф — ориентир 1 000–1 500 ₽ в час, пешком — 3 000–6 000 ₽ за день. Для Санкт-Петербурга и других городов калькулятор применяет поправку: заказов там меньше, и ориентиры скромнее. Точный ориентир по вашему городу — на его странице в списке ниже.</p>
+      <p>Это не гарантия и не средняя цифра. При полной загрузке расчётный потолок в месяц — до 200 000 ₽ на велосипеде, до 300 000 ₽ на авто и до 350 000 ₽ на грузовом. Из суммы вычитается комиссия парка 4% (первый день в Яндекс Доставке — 0%) и налог самозанятого. Выплаты приходят после каждого заказа на баланс Яндекс Про, вывести на карту можно в любой момент.</p>
+
+      <div class="grid grid-2">
+        <div class="card"><h3>От чего зависит доход</h3><p>Город и плотность заказов, транспорт (пешком / велосипед / авто / фургон), количество отработанных часов, участие в слотах и доплатах, сезон. Новичок в первый месяц почти всегда зарабатывает меньше, чем через 2–3 месяца.</p></div>
+        <div class="card"><h3>Где потолок выше</h3><p>В миллионниках заказов плотнее и доплат за спрос больше, поэтому верхняя граница дохода выше. В небольших городах заказов меньше — и ориентиры скромнее. Это честно, а не «везде одинаково много».</p></div>
+      </div>
+
+      <div class="inline-cta">
+  <p>Готовы выйти на линию? Подключение занимает 7 минут прямо в переписке — понадобится телефон и фото документов.</p>
+  <a class="btn btn-lg" href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener">Подключиться в Telegram</a>
+</div>
+
+      <h2>Города-миллионники</h2>
+      <p>Самый плотный поток заказов и самые высокие ориентиры дохода. Нажмите город — увидите разбор по тарифам:</p>
+      <div class="chip-cloud"><a class="chip-link" href="/gorod/moskva/">Москва</a><a class="chip-link" href="/gorod/sankt-peterburg/">Санкт-Петербург</a><a class="chip-link" href="/gorod/novosibirsk/">Новосибирск</a><a class="chip-link" href="/gorod/ekaterinburg/">Екатеринбург</a><a class="chip-link" href="/gorod/kazan/">Казань</a><a class="chip-link" href="/gorod/nizhniy-novgorod/">Нижний Новгород</a><a class="chip-link" href="/gorod/chelyabinsk/">Челябинск</a><a class="chip-link" href="/gorod/samara/">Самара</a><a class="chip-link" href="/gorod/omsk/">Омск</a><a class="chip-link" href="/gorod/rostov-na-donu/">Ростов-на-Дону</a><a class="chip-link" href="/gorod/ufa/">Уфа</a><a class="chip-link" href="/gorod/krasnoyarsk/">Красноярск</a><a class="chip-link" href="/gorod/voronezh/">Воронеж</a><a class="chip-link" href="/gorod/perm/">Пермь</a><a class="chip-link" href="/gorod/volgograd/">Волгоград</a><a class="chip-link" href="/gorod/krasnodar/">Краснодар</a></div>
+
+      <h2>Все города, где мы подключаем курьеров</h2>
+      <p>153 города по всей России. Выберите свой — на его странице ориентир заработка, условия и подключение:</p>
+      <div class="chip-cloud"><a class="chip-link" href="/gorod/abakan/">Абакан</a><a class="chip-link" href="/gorod/adler/">Адлер</a><a class="chip-link" href="/gorod/almetevsk/">Альметьевск</a><a class="chip-link" href="/gorod/angarsk/">Ангарск</a><a class="chip-link" href="/gorod/armavir/">Армавир</a><a class="chip-link" href="/gorod/artem/">Артём</a><a class="chip-link" href="/gorod/arkhangelsk/">Архангельск</a><a class="chip-link" href="/gorod/astrakhan/">Астрахань</a><a class="chip-link" href="/gorod/achinsk/">Ачинск</a><a class="chip-link" href="/gorod/balakovo/">Балаково</a><a class="chip-link" href="/gorod/balashikha/">Балашиха</a><a class="chip-link" href="/gorod/barnaul/">Барнаул</a><a class="chip-link" href="/gorod/bataysk/">Батайск</a><a class="chip-link" href="/gorod/belgorod/">Белгород</a><a class="chip-link" href="/gorod/berdsk/">Бердск</a><a class="chip-link" href="/gorod/berezniki/">Березники</a><a class="chip-link" href="/gorod/biysk/">Бийск</a><a class="chip-link" href="/gorod/blagoveshchensk/">Благовещенск</a><a class="chip-link" href="/gorod/bratsk/">Братск</a><a class="chip-link" href="/gorod/bronnicy/">Бронницы</a><a class="chip-link" href="/gorod/bryansk/">Брянск</a><a class="chip-link" href="/gorod/veliky-novgorod/">Великий Новгород</a><a class="chip-link" href="/gorod/vladivostok/">Владивосток</a><a class="chip-link" href="/gorod/vladikavkaz/">Владикавказ</a><a class="chip-link" href="/gorod/vladimir/">Владимир</a><a class="chip-link" href="/gorod/volgodonsk/">Волгодонск</a><a class="chip-link" href="/gorod/volzhskiy/">Волжский</a><a class="chip-link" href="/gorod/vologda/">Вологда</a><a class="chip-link" href="/gorod/vsevolozhsk/">Всеволожск</a><a class="chip-link" href="/gorod/vyborg/">Выборг</a><a class="chip-link" href="/gorod/gatchina/">Гатчина</a><a class="chip-link" href="/gorod/gelendzhik/">Геленджик</a><a class="chip-link" href="/gorod/grozny/">Грозный</a><a class="chip-link" href="/gorod/dzerzhinsk/">Дзержинск</a><a class="chip-link" href="/gorod/dmitrov/">Дмитров</a><a class="chip-link" href="/gorod/dolgoprudny/">Долгопрудный</a><a class="chip-link" href="/gorod/domodedovo/">Домодедово</a><a class="chip-link" href="/gorod/dubna/">Дубна</a><a class="chip-link" href="/gorod/egorevsk/">Егорьевск</a><a class="chip-link" href="/gorod/elets/">Елец</a><a class="chip-link" href="/gorod/essentuki/">Ессентуки</a><a class="chip-link" href="/gorod/zhukovsky/">Жуковский</a><a class="chip-link" href="/gorod/zelenograd/">Зеленоград</a><a class="chip-link" href="/gorod/zlatoust/">Златоуст</a><a class="chip-link" href="/gorod/ivanovo/">Иваново</a><a class="chip-link" href="/gorod/ivanteevka/">Ивантеевка</a><a class="chip-link" href="/gorod/izhevsk/">Ижевск</a><a class="chip-link" href="/gorod/irkutsk/">Иркутск</a><a class="chip-link" href="/gorod/istra/">Истра</a><a class="chip-link" href="/gorod/yoshkar-ola/">Йошкар-Ола</a><a class="chip-link" href="/gorod/kaliningrad/">Калининград</a><a class="chip-link" href="/gorod/kaluga/">Калуга</a><a class="chip-link" href="/gorod/kamensk-uralsky/">Каменск-Уральский</a><a class="chip-link" href="/gorod/kaspiysk/">Каспийск</a><a class="chip-link" href="/gorod/kemerovo/">Кемерово</a><a class="chip-link" href="/gorod/kingisepp/">Кингисепп</a><a class="chip-link" href="/gorod/kirov/">Киров</a><a class="chip-link" href="/gorod/kislovodsk/">Кисловодск</a><a class="chip-link" href="/gorod/klin/">Клин</a><a class="chip-link" href="/gorod/kovrov/">Ковров</a><a class="chip-link" href="/gorod/kolomna/">Коломна</a><a class="chip-link" href="/gorod/kolpino/">Колпино</a><a class="chip-link" href="/gorod/komsomolsk-na-amure/">Комсомольск-на-Амуре</a><a class="chip-link" href="/gorod/kopeysk/">Копейск</a><a class="chip-link" href="/gorod/korolev/">Королёв</a><a class="chip-link" href="/gorod/kostroma/">Кострома</a><a class="chip-link" href="/gorod/kotelniki/">Котельники</a><a class="chip-link" href="/gorod/krasnogorsk/">Красногорск</a><a class="chip-link" href="/gorod/krasnoe-selo/">Красное Село</a><a class="chip-link" href="/gorod/kurgan/">Курган</a><a class="chip-link" href="/gorod/kursk/">Курск</a><a class="chip-link" href="/gorod/kyzyl/">Кызыл</a><a class="chip-link" href="/gorod/lipetsk/">Липецк</a><a class="chip-link" href="/gorod/lytkarino/">Лыткарино</a><a class="chip-link" href="/gorod/lyubertsy/">Люберцы</a><a class="chip-link" href="/gorod/magnitogorsk/">Магнитогорск</a><a class="chip-link" href="/gorod/maykop/">Майкоп</a><a class="chip-link" href="/gorod/makhachkala/">Махачкала</a><a class="chip-link" href="/gorod/miass/">Миасс</a><a class="chip-link" href="/gorod/mozhaysk/">Можайск</a><a class="chip-link" href="/gorod/murmansk/">Мурманск</a><a class="chip-link" href="/gorod/murom/">Муром</a><a class="chip-link" href="/gorod/mytishchi/">Мытищи</a><a class="chip-link" href="/gorod/naberezhnye-chelny/">Набережные Челны</a><a class="chip-link" href="/gorod/nazran/">Назрань</a><a class="chip-link" href="/gorod/nalchik/">Нальчик</a><a class="chip-link" href="/gorod/naro-fominsk/">Наро-Фоминск</a><a class="chip-link" href="/gorod/nakhodka/">Находка</a><a class="chip-link" href="/gorod/nevinnomyssk/">Невинномысск</a><a class="chip-link" href="/gorod/neftekamsk/">Нефтекамск</a><a class="chip-link" href="/gorod/nefteyugansk/">Нефтеюганск</a><a class="chip-link" href="/gorod/nizhnevartovsk/">Нижневартовск</a><a class="chip-link" href="/gorod/nizhnekamsk/">Нижнекамск</a><a class="chip-link" href="/gorod/novokuznetsk/">Новокузнецк</a><a class="chip-link" href="/gorod/novomoskovsk/">Новомосковск</a><a class="chip-link" href="/gorod/novorossiysk/">Новороссийск</a><a class="chip-link" href="/gorod/novocherkassk/">Новочеркасск</a><a class="chip-link" href="/gorod/novoshakhtinsk/">Новошахтинск</a><a class="chip-link" href="/gorod/novy-urengoy/">Новый Уренгой</a><a class="chip-link" href="/gorod/noginsk/">Ногинск</a><a class="chip-link" href="/gorod/norilsk/">Норильск</a><a class="chip-link" href="/gorod/noyabrsk/">Ноябрьск</a><a class="chip-link" href="/gorod/obninsk/">Обнинск</a><a class="chip-link" href="/gorod/odintsovo/">Одинцово</a><a class="chip-link" href="/gorod/oktyabrsky/">Октябрьский</a><a class="chip-link" href="/gorod/orenburg/">Оренбург</a><a class="chip-link" href="/gorod/orekhovo-zuevo/">Орехово-Зуево</a><a class="chip-link" href="/gorod/orsk/">Орск</a><a class="chip-link" href="/gorod/orel/">Орёл</a><a class="chip-link" href="/gorod/pavlovskiy-posad/">Павловский Посад</a><a class="chip-link" href="/gorod/penza/">Пенза</a><a class="chip-link" href="/gorod/pervouralsk/">Первоуральск</a><a class="chip-link" href="/gorod/petergof/">Петергоф</a><a class="chip-link" href="/gorod/petrozavodsk/">Петрозаводск</a><a class="chip-link" href="/gorod/petropavlovsk-kamchatsky/">Петропавловск-Камчатский</a><a class="chip-link" href="/gorod/podolsk/">Подольск</a><a class="chip-link" href="/gorod/prokopyevsk/">Прокопьевск</a><a class="chip-link" href="/gorod/pskov/">Псков</a><a class="chip-link" href="/gorod/pushkin-spb/">Пушкин</a><a class="chip-link" href="/gorod/pushkino/">Пушкино</a><a class="chip-link" href="/gorod/pyatigorsk/">Пятигорск</a><a class="chip-link" href="/gorod/ramenskoe/">Раменское</a><a class="chip-link" href="/gorod/reutov/">Реутов</a><a class="chip-link" href="/gorod/rybinsk/">Рыбинск</a><a class="chip-link" href="/gorod/ryazan/">Рязань</a><a class="chip-link" href="/gorod/salavat/">Салават</a><a class="chip-link" href="/gorod/saransk/">Саранск</a><a class="chip-link" href="/gorod/saratov/">Саратов</a><a class="chip-link" href="/gorod/sevastopol/">Севастополь</a><a class="chip-link" href="/gorod/severodvinsk/">Северодвинск</a><a class="chip-link" href="/gorod/sergiev-posad/">Сергиев Посад</a><a class="chip-link" href="/gorod/serpukhov/">Серпухов</a><a class="chip-link" href="/gorod/smolensk/">Смоленск</a><a class="chip-link" href="/gorod/sochi/">Сочи</a><a class="chip-link" href="/gorod/stavropol/">Ставрополь</a><a class="chip-link" href="/gorod/stary-oskol/">Старый Оскол</a><a class="chip-link" href="/gorod/sterlitamak/">Стерлитамак</a><a class="chip-link" href="/gorod/surgut/">Сургут</a><a class="chip-link" href="/gorod/syktyvkar/">Сыктывкар</a><a class="chip-link" href="/gorod/taganrog/">Таганрог</a><a class="chip-link" href="/gorod/tambov/">Тамбов</a><a class="chip-link" href="/gorod/tver/">Тверь</a><a class="chip-link" href="/gorod/tobolsk/">Тобольск</a><a class="chip-link" href="/gorod/tolyatti/">Тольятти</a><a class="chip-link" href="/gorod/tomsk/">Томск</a><a class="chip-link" href="/gorod/troick/">Троицк</a><a class="chip-link" href="/gorod/tula/">Тула</a><a class="chip-link" href="/gorod/tyumen/">Тюмень</a><a class="chip-link" href="/gorod/ulan-ude/">Улан-Удэ</a><a class="chip-link" href="/gorod/ulyanovsk/">Ульяновск</a><a class="chip-link" href="/gorod/ussuriysk/">Уссурийск</a><a class="chip-link" href="/gorod/khabarovsk/">Хабаровск</a><a class="chip-link" href="/gorod/khasavyurt/">Хасавюрт</a><a class="chip-link" href="/gorod/khimki/">Химки</a><a class="chip-link" href="/gorod/cheboksary/">Чебоксары</a><a class="chip-link" href="/gorod/cherepovets/">Череповец</a><a class="chip-link" href="/gorod/cherkessk/">Черкесск</a><a class="chip-link" href="/gorod/chekhov/">Чехов</a><a class="chip-link" href="/gorod/chita/">Чита</a><a class="chip-link" href="/gorod/shakhty/">Шахты</a><a class="chip-link" href="/gorod/scherbinka/">Щербинка</a><a class="chip-link" href="/gorod/shchelkovo/">Щёлково</a><a class="chip-link" href="/gorod/elektrostal/">Электросталь</a><a class="chip-link" href="/gorod/engels/">Энгельс</a><a class="chip-link" href="/gorod/yuzhno-sakhalinsk/">Южно-Сахалинск</a><a class="chip-link" href="/gorod/yakutsk/">Якутск</a><a class="chip-link" href="/gorod/yaroslavl/">Ярославль</a></div>
+
+      <h2>Разборы заработка по деталям</h2>
+      <div class="post-list">
+        <a class="post-item reveal" href="/articles/skolko-zarabatyvaet-kurier/"><b>Сколько зарабатывает курьер в месяц — по тарифам и городам</b></a>
+        <a class="post-item reveal" href="/articles/skolko-zarabatyvaet-kurier-v-chas/"><b>Сколько зарабатывает курьер в час: пешком, вело, авто</b></a>
+        <a class="post-item reveal" href="/articles/skolko-zarabatyvaet-kurier-za-nedelu/"><b>Сколько зарабатывает курьер за неделю: расчёт по дням</b></a>
+        <a class="post-item reveal" href="/articles/skolko-mozhno-zarabotat-kurierom-v-den/"><b>Сколько можно заработать курьером за день: честные цифры</b></a>
+      </div>
+    </div>
+
+    <div class="cta-band">
+      <h2>Узнайте ориентир по своему городу</h2>
+      <p class="lead">Напишите нам город — назовём актуальный ориентир по тарифам и подключим за 7 минут. Первый день в Яндекс Доставке без комиссии.</p>
+      <div class="hero-cta">
+        <a class="btn btn-lg" href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener">Подключиться в Telegram</a>
+        <a class="btn btn-lg btn-ghost" href="https://max.ru/id280405521400_bot?start=site" target="_blank" rel="noopener">Написать в MAX</a>
+      </div>
+    </div>
+  </div></div>
+</article>
+<section class="tight"><div class="wrap"><h2>Как начать работать курьером</h2>
+<p>Стать курьером в нашем парке очень просто. Весь процесс подключения занимает 7 минут и проходит удаленно. Вам не нужно ехать в офис или заполнять кипу бумаг. Все, что потребуется, это телефон и несколько фото ваших документов.</p>
+<p>Этапы подключения:</p>
+<ul>
+    <li>Вы связываетесь с нами удобным способом (через Telegram-бот, форму на сайте или по телефону).</li>
+    <li>Наш менеджер запрашивает необходимые данные и фотографии документов (паспорт, СНИЛС, ИНН, водительское удостоверение — для автокурьеров).</li>
+    <li>Мы регистрируем вас в системе Яндекс Про и других агрегаторах (Яндекс Еда, Яндекс Доставка, TopGo).</li>
+    <li>Вы получаете доступ к личному кабинету и можете сразу выходить на линию.</li>
+</ul>
+<p>Первый день работы в Яндекс Доставке в нашем парке — без комиссии! Это отличная возможность попробовать себя в роли курьера и оценить все преимущества, не отвлекаясь на дополнительные расходы.</p>
+
+<h2>Важные нюансы работы курьером</h2>
+<p>Работая курьером через наш парк, вы получаете не только доступ к заказам, но и поддержку по всем возникающим вопросам. Мы стремимся сделать ваш опыт работы максимально комфортным и выгодным.</p>
+<div class="tblwrap">
+<table>
+    <thead>
+        <tr>
+            <th>Параметр</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Комиссия парка</td>
+            <td>4% от суммы выполненных заказов. Первый день в Яндекс Доставке — 0%.</td>
+        </tr>
+        <tr>
+            <td>График работы</td>
+            <td>Гибкий, вы сами выбираете часы и дни работы. Можно работать как полную смену, так и несколько часов в день.</td>
+        </tr>
+        <tr>
+            <td>Выплаты</td>
+            <td>Зависят от агрегатора и тарифа. Обычно средства поступают на ваш счет несколько раз в неделю. Точную информацию уточняйте при подключении.</td>
+        </tr>
+        <tr>
+            <td>Транспорт</td>
+            <td>Пеший, велосипед, самокат, автомобиль, грузовой автомобиль. Выбор транспорта влияет на доступные заказы и потенциальный доход.</td>
+        </tr>
+        <tr>
+            <td>Самозанятость</td>
+            <td>Рекомендуем оформить статус самозанятого для легальной и выгодной работы. Налоги рассчитываются со всей суммы поступлений, без вычета расходов, но с возможностью получения стартового налогового бонуса 10 000 рублей.</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<p>Обратите внимание, что условия и требования сервисов Яндекс Еда, Яндекс Доставка и TopGo могут меняться. Актуальную информацию всегда уточняйте при подключении и в процессе работы у наших менеджеров.</p>
+
+<h2>Преимущества работы через «ДОСТАВЬ-КА»</h2>
+<p>Выбирая наш курьерский парк, вы получаете ряд преимуществ, которые выделяют нас среди конкурентов:</p>
+<ul>
+    <li><strong>Минимальная комиссия:</strong> Мы предлагаем одну из самых низких комиссий на рынке — всего 4%, а первый день работы в Яндекс Доставке и вовсе без комиссии!</li>
+    <li><strong>Быстрое подключение:</strong> Начните зарабатывать уже сегодня! Подключение займет не более 7 минут.</li>
+    <li><strong>Поддержка 24/7:</strong> Наши менеджеры всегда готовы ответить на ваши вопросы и помочь решить возникшие проблемы.</li>
+    <li><strong>Доступ ко всем агрегаторам:</strong> Подключаем к Яндекс Еде, Яндекс Доставке и TopGo, предоставляя вам максимальный выбор заказов.</li>
+    <li><strong>Прозрачные условия:</strong> Мы честно говорим о том, от чего зависит доход, и не обещаем золотых гор. Наша цель — долгосрочное и взаимовыгодное сотрудничество.</li>
+    <li><strong>Регулярные выплаты:</strong> Вы можете быть уверены в своевременном получении заработанных средств.</li>
+</ul>
+<p>Мы заинтересованы в вашем успехе и готовы предоставить все необходимые инструменты для эффективной работы.</p>
+
+<h2>Частые вопросы</h2>
+
+<h3>Как быстро я получу первые деньги?</h3>
+<p>Выплаты производятся согласно графикам агрегаторов, обычно несколько раз в неделю. Точный график зависит от города и тарифа, уточняйте при подключении.</p>
+
+<h3>Обязательно ли быть самозанятым?</h3>
+<p>Для работы курьером через наш парк рекомендуется оформить статус самозанятого. Это обеспечивает легальность вашей деятельности и позволяет уплачивать налоги по льготной ставке.</p>
+
+<h3>Какой транспорт нужен для работы?</h3>
+<p>Вы можете работать пешком, на велосипеде, самокате, личном автомобиле или грузовом автомобиле. Выбор транспорта зависит от ваших возможностей и предпочтений, а также влияет на доступность заказов и потенциальный доход.</p>
+
+<h3>Есть ли штрафы или скрытые комиссии?</h3>
+<p>Мы работаем максимально прозрачно. Комиссия парка составляет 4%, первый день в Яндекс Доставке — 0%. Скрытых комиссий и штрафов с нашей стороны нет. Однако агрегаторы могут применять штрафы за нарушения правил сервиса (например, отмена заказа, нарушение сроков доставки).</p>
+
+<h3>Что делать, если возникнут проблемы с заказом?</h3>
+<p>В случае возникновения проблем с заказом (например, неверный адрес, отказ клиента, проблемы с приложением), необходимо немедленно связаться с нашей службой поддержки или поддержкой агрегатора, через который был получен заказ. Наши менеджеры помогут найти оптимальное решение.</p></div></section>
+
+<section class="tight"><div class="wrap"><section class="section">
+    <div class="container">
+        <h2>Как считается доход курьера: разбор на примере</h2>
+        <p>Понимание того, как формируется ваш итоговый доход, поможет вам планировать свою работу и максимизировать заработок. Давайте разберем этот процесс по шагам на основе общих цифр, которые встречаются на рынке и упомянуты на этой странице.</p>
+
+        <h3>Пример расчета дохода (Москва, велокурьер, 8 часов в день)</h3>
+        <p>Предположим, курьер работает в Москве на велосипеде 8 часов в день. Данные для расчета:</p>
+        <ul>
+            <li><strong>Средний доход за заказ (чистый, до вычета комиссии парка и налогов):</strong> зависит от тарифа и удаленности, но для велокурьера в Москве это может быть в среднем 200-250 рублей за заказ (уточняйте актуальные тарифы при подключении). Возьмем <strong>220 рублей</strong>.</li>
+            <li><strong>Среднее количество заказов за час:</strong> при активной работе и хорошей плотности заказов велокурьер может выполнять 2-3 заказа в час. Возьмем <strong>2.5 заказа</strong>.</li>
+            <li><strong>Количество рабочих часов в день:</strong> 8 часов.</li>
+            <li><strong>Рабочих дней в неделю:</strong> 5 дней.</li>
+            <li><strong>Рабочих недель в месяц:</strong> 4 недели.</li>
+            <li><strong>Комиссия парка:</strong> 4% (первый день в Яндекс Доставке 0%).</li>
+            <li><strong>Налог самозанятого:</strong> 6% для работы с юридическими лицами (агрегаторы).</li>
+            <li><strong>Предполагаемые расходы:</strong>
+                <ul>
+                    <li>Аренда велосипеда (если нет своего): 100-200 руб/день (уточняйте актуальные предложения). Возьмем <strong>150 рублей/день</strong>.</li>
+                    <li>Мобильная связь и интернет: 300-500 руб/месяц. Возьмем <strong>400 рублей/месяц</strong>.</li>
+                    <li>Питание в смену: 200-300 руб/день. Возьмем <strong>250 рублей/день</strong>.</li>
+                    <li>Мелкий ремонт велосипеда/амортизация: 50-100 руб/день. Возьмем <strong>70 рублей/день</strong>.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Шаг 1: Расчет базового дохода за день (до комиссий и налогов)</h4>
+        <p>
+            Средний доход за час = 2.5 заказа/час * 220 руб/заказ = 550 рублей/час<br>
+            Доход за день = 550 рублей/час * 8 часов = <strong>4400 рублей</strong>
+        </p>
+
+        <h4>Шаг 2: Расчет базового дохода за месяц (до комиссий и налогов)</h4>
+        <p>
+            Рабочих дней в месяц = 5 дней/неделя * 4 недели = 20 дней<br>
+            Доход за месяц = 4400 рублей/день * 20 дней = <strong>88 000 рублей</strong>
+        </p>
+
+        <h4>Шаг 3: Вычет комиссии парка</h4>
+        <p>
+            Комиссия парка = 88 000 рублей * 4% = <strong>3520 рублей</strong><br>
+            Доход после комиссии парка = 88 000 - 3520 = <strong>84 480 рублей</strong>
+        </p>
+        <p><em>(Примечание: первый день работы в Яндекс Доставке без комиссии, что немного увеличит итоговую сумму, но для простоты расчетов мы усреднили на весь месяц).</em></p>
+
+        <h4>Шаг 4: Расчет налога самозанятого</h4>
+        <p>
+            Налог самозанятого (6% от всей суммы поступления) = 84 480 рублей * 6% = <strong>5068.80 рублей</strong><br>
+            Доход после налогов = 84 480 - 5068.80 = <strong>79 411.20 рублей</strong>
+        </p>
+        <p><em>(Напоминаем: на НПД расходы НЕ вычитаются, налог со всей суммы поступления. Единственный "вычет" – стартовый бонус 10 000 ₽, который снижает эффективную ставку налога до исчерпания бонуса).</em></p>
+
+        <h4>Шаг 5: Вычет расходов</h4>
+        <p>
+            Расходы за день:<br>
+            Аренда велосипеда = 150 рублей<br>
+            Питание = 250 рублей<br>
+            Мелкий ремонт/амортизация = 70 рублей<br>
+            Итого ежедневных расходов = 150 + 250 + 70 = 470 рублей
+        </p>
+        <p>
+            Ежемесячные расходы:<br>
+            Ежедневные расходы за месяц = 470 рублей/день * 20 дней = 9400 рублей<br>
+            Мобильная связь и интернет = 400 рублей<br>
+            Итого всех расходов за месяц = 9400 + 400 = <strong>9800 рублей</strong>
+        </p>
+        <p><em>(Важно: налог для самозанятых рассчитывается до вычета расходов. Эти расходы вычитаются из вашего ЧИСТОГО дохода уже после уплаты налогов).</em></p>
+
+        <h4>Шаг 6: Итоговый чистый доход за месяц</h4>
+        <p>
+            Чистый доход после всех вычетов = 79 411.20 рублей - 9800 рублей = <strong>69 611.20 рублей</strong>
+        </p>
+
+        <p>Таким образом, при таких условиях велокурьер в Москве может рассчитывать на чистый доход около <strong>69 611 рублей в месяц</strong>. Эта сумма может варьироваться в зависимости от вашей эффективности, активности, выбора слотов, участия в доплатах и, конечно же, актуальных тарифов и плотности заказов.</p>
+        <p>Данный пример показывает, что реальный доход складывается из множества факторов. Мы всегда рекомендуем уточнять актуальные тарифы и возможный объем заказов в вашем городе при подключении к нашему парку.</p>
+    </div>
+</section>
+
+<section class="section section--grey">
+    <div class="container">
+        <h2>Ошибки новичков и их стоимость</h2>
+        <p>Начало работы в курьерской службе может быть увлекательным и прибыльным, но новички часто совершают типичные ошибки, которые существенно влияют на их заработок и эффективность. Знание этих подводных камней поможет вам избежать ненужных потерь.</p>
+
+        <ol>
+            <li>
+                <h3>Незнание города и плохая навигация</h3>
+                <p><strong>Ошибка:</strong> Неэффективное построение маршрутов, частые заезды в "пробки", долгие поиски адресов, неправильный выбор транспорта для конкретного района.</p>
+                <p><strong>Цена ошибки:</strong> Потеря времени на каждый заказ, снижение количества выполненных заказов в час. В крупном городе, таком как Москва или Санкт-Петербург, это может привести к потере <strong>2-3 заказов в день</strong>. Если средний заказ приносит 200 рублей, то это <strong>400-600 рублей в день</strong>. За месяц (20 рабочих дней) это до <strong>12 000 рублей</strong> упущенной выгоды.</p>
+                <p><strong>Решение:</strong> Изучайте город, используйте качественные навигаторы (Яндекс Карты, 2ГИС), планируйте маршрут заранее, используйте общественный транспорт или метро для перемещения между районами, если вы пеший курьер.</p>
+            </li>
+            <li>
+                <h3>Игнорирование слотов и доплат</h3>
+                <p><strong>Ошибка:</strong> Работа "когда придется", без учета пиковых часов и специальных предложений агрегаторов.</p>
+                <p><strong>Цена ошибки:</strong> Упускаются самые выгодные заказы с повышенными тарифами и гарантированным доходом. В пиковые часы (обед, ужин, плохая погода) доплаты могут увеличивать стоимость заказа на <strong>30-50%</strong>. Если вы пропускаете эти часы, ваш доход может быть ниже на <strong>до 15 000 - 20 000 рублей в месяц</strong> по сравнению с теми, кто активно использует слоты.</p>
+                <p><strong>Решение:</strong> Следите за анонсами слотов и доплат в приложении агрегатора, старайтесь работать в наиболее загруженные часы и в условиях повышенного спроса (дождь, снег, праздники).</p>
+            </li>
+            <li>
+                <h3>Плохая подготовка к смене</h3>
+                <p><strong>Ошибка:</strong> Разряженный телефон, отсутствие внешнего аккумулятора, неподходящая одежда по погоде, отсутствие термосумки (если это требование тарифа), недостаточный запас воды/еды.</p>
+                <p><strong>Цена ошибки:</strong> Прерывание смены из-за разряженного телефона, невозможность взять заказ, дискомфорт, что ведет к снижению работоспособности. Потеря <strong>1-2 часов</strong> в день из-за вынужденных перерывов или невозможности работать = <strong>500-1000 рублей в день</strong>. За месяц это может быть <strong>10 000 - 20 000 рублей</strong> упущенного дохода.</p>
+                <p><strong>Решение:</strong> Всегда заряжайте телефон, берите с собой повербанк, одевайтесь по погоде, проверяйте комплектность термосумки, берите с собой воду и перекус.</p>
+            </li>
+            <li>
+                <h3>Низкая скорость реакции и коммуникации</h3>
+                <p><strong>Ошибка:</strong> Долгое принятие заказа, медленная передача информации клиенту или поддержке, нежелание уточнять детали.</p>
+                <p><strong>Цена ошибки:</strong> Агрегаторы оценивают скорость принятия заказа и выполнения доставки. Низкие показатели могут привести к уменьшению числа заказов или менее выгодным предложениям. Также это может привести к отмене заказа со стороны клиента или агрегатора. Каждый отмененный заказ — это <strong>потеря 200-300 рублей</strong>. А постоянные задержки могут снизить ваш приоритет и уменьшить поток заказов, что в итоге сократит месячный доход на <strong>5 000 - 10 000 рублей</strong>.</p>
+                <p><strong>Решение:</strong> Будьте внимательны к уведомлениям, оперативно отвечайте на звонки и сообщения, вежливо и четко общайтесь с клиентами и службой поддержки.</p>
+            </li>
+            <li>
+                <h3>Игнорирование рекомендаций и советов парка</h3>
+                <p><strong>Ошибка:</strong> Нежелание обращаться в поддержку парка, пропускание важных уведомлений, неиспользование преимуществ сотрудничества.</p>
+                <p><strong>Цена ошибки:</strong> Неполучение актуальной информации о лучших тарифах, новых акциях, возможных доплатах. Зачастую парк имеет доступ к эксклюзивной информации и может подсказать, как увеличить доход. Игнорирование этого может стоить <strong>нескольких тысяч рублей в месяц</strong> (от 3 000 до 7 000 рублей) из-за упущенных возможностей и неоптимизированной работы.</p>
+                <p><strong>Решение:</strong> Активно взаимодействуйте с поддержкой "ДОСТАВЬ-КА", читайте все рассылки и уведомления, задавайте вопросы — мы заинтересованы в вашем успехе!</p>
+            </li>
+        </ol>
+        <p>Избегая этих распространенных ошибок, вы сможете существенно увеличить свой доход и сделать работу курьером более комфортной и эффективной.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Сравнение вариантов работы курьером</h2>
+        <p>Выбор оптимального способа работы курьером зависит от ваших целей, возможностей и предпочтений. Мы собрали основные варианты и их ключевые характеристики, чтобы помочь вам принять взвешенное решение.</p>
+
+        <div class="tblwrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Критерий</th>
+                        <th>Пеший курьер</th>
+                        <th>Велокурьер / Электросамокат</th>
+                        <th>Автокурьер (легковой автомобиль)</th>
+                        <th>Грузовой курьер (фургон/грузовик)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Скорость доставки</strong></td>
+                        <td>Низкая, ограничена расстоянием.</td>
+                        <td>Средняя, высокая в городской черте (объезд пробок).</td>
+                        <td>Высокая, но зависит от трафика и парковок.</td>
+                        <td>Высокая (для габаритных грузов), зависит от трафика и маршрута.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Доступность заказов</strong></td>
+                        <td>Малый радиус доставки, в основном еда и мелкие посылки.</td>
+                        <td>Средний радиус, еда, напитки, мелкие посылки.</td>
+                        <td>Большой радиус, любые посылки, еда, продукты из магазинов.</td>
+                        <td>Только крупногабаритные заказы (мебель, техника, стройматериалы).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Потенциальный доход (условно)</strong></td>
+                        <td>Низкий-средний (зависит от плотности заказов).</td>
+                        <td>Средний-высокий (быстрое выполнение в центре).</td>
+                        <td>Средний-высокий (зависит от дальности и количества заказов).</td>
+                        <td>Высокий (высокая стоимость одного заказа).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Первоначальные вложения</strong></td>
+                        <td>Низкие (удобная обувь, зарядка).</td>
+                        <td>Средние (велосипед/самокат, обслуживание).</td>
+                        <td>Высокие (автомобиль, бензин, ТО, страховка).</td>
+                        <td>Очень высокие (грузовой автомобиль, топливо, обслуживание).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Расходы на эксплуатацию</strong></td>
+                        <td>Низкие (вода, перекусы, зарядка).</td>
+                        <td>Средние (амортизация, ремонт, зарядка, еда).</td>
+                        <td>Высокие (бензин, ТО, мойка, штрафы, амортизация).</td>
+                        <td>Очень высокие (дизель/бензин, ТО, страховка, ремонт, резина).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Гибкость графика</strong></td>
+                        <td>Высокая, легко начать и закончить.</td>
+                        <td>Высокая, удобно для подработки.</td>
+                        <td>Средняя, требует больше планирования.</td>
+                        <td>Низкая, обычно требует полной занятости или серьезной подработки.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Физическая нагрузка</strong></td>
+                        <td>Высокая.</td>
+                        <td>Средняя-высокая.</td>
+                        <td>Низкая-средняя.</td>
+                        <td>Средняя (погрузка/разгрузка).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Требования к опыту</strong></td>
+                        <td>Нет.</td>
+                        <td>Желателен опыт управления велосипедом/самокатом.</td>
+                        <td>Водительский стаж, знание ПДД.</td>
+                        <td>Водительский стаж, знание ПДД, опыт управления грузовым транспортом.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Зоны работы</strong></td>
+                        <td>Плотная городская застройка, центр.</td>
+                        <td>Плотная застройка, радиус 3-7 км.</td>
+                        <td>Весь город, пригороды.</td>
+                        <td>Весь город, междугородние перевозки.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>Как видно из таблицы, каждый вариант имеет свои плюсы и минусы. Пешие и велокурьеры идеально подходят для работы в центре крупных городов, где много пробок и короткие расстояния. Автокурьеры более универсальны, но требуют значительных вложений и расходов на содержание автомобиля. Грузовые курьеры могут зарабатывать больше за заказ, но их работа сопряжена с более высокой ответственностью и затратами.</p>
+        <p>Выбирайте тот вариант, который наиболее соответствует вашим возможностям и условиям в вашем городе.</p>
+    </div>
+</section>
+
+<section class="section section--grey">
+    <div class="container">
+        <h2>Пошагово: с чего начать работу курьером</h2>
+        <p>Процесс подключения к нашему парку и выхода на линию максимально упрощен. Вот пошаговая инструкция, которая поможет вам быстро начать зарабатывать:</p>
+
+        <ol>
+            <li>
+                <h3>Шаг 1: Оставьте заявку и свяжитесь с нами (5-10 минут)</h3>
+                <p><strong>Что делаем:</strong> Выберите удобный для вас способ связи: напишите в Telegram-бот, заполните форму на сайте или позвоните по указанному телефону. Расскажите нашему менеджеру о своем желании работать курьером и какой вид транспорта планируете использовать.</p>
+                <p><strong>Зачем:</strong> Это первый контакт, который позволит нам понять ваши потребности и подготовить необходимые документы.</p>
+            </li>
+            <li>
+                <h3>Шаг 2: Предоставьте необходимые документы (7 минут)</h3>
+                <p><strong>Что делаем:</strong> Наш менеджер запросит у вас фотографии следующих документов: паспорт (разворот с фото и пропиской), СНИЛС, ИНН. Для автокурьеров дополнительно потребуется водительское удостоверение и СТС автомобиля.</p>
+                <p><strong>Зачем:</strong> Эти данные необходимы для вашей регистрации в агрегаторах (Яндекс Про, Яндекс Еда, Яндекс Доставка, TopGo) и для оформления вас как партнера.</p>
+            </li>
+            <li>
+                <h3>Шаг 3: Пройдите регистрацию в агрегаторах (15-30 минут, зависит от сервиса)</h3>
+                <p><strong>Что делаем:</strong> Наш менеджер внесет ваши данные в системы агрегаторов. Некоторые сервисы могут попросить вас установить их приложение и пройти краткое онлайн-обучение или тест на знание стандартов доставки. Иногда требуется загрузка дополнительных документов прямо в приложении агрегатора.</p>
+                <p><strong>Зачем:</strong> Это обязательный этап для получения доступа к заказам. Без регистрации в агрегаторах вы не сможете принимать заказы.</p>
+            </li>
+            <li>
+                <h3>Шаг 4: Подготовка к первой смене (до 1 дня)</h3>
+                <p><strong>Что делаем:</strong> Зарядите телефон и повербанк, проверьте наличие термосумки (если она требуется для заказов еды), подготовьте удобную одежду по погоде, продумайте маршрут до зоны с повышенным спросом в вашем городе. Подумайте о статусе самозанятого.</p>
+                <p><strong>Зачем:</strong> Качественная подготовка — залог успешной и прибыльной смены. Если вы еще не самозанятый, самое время подумать об этом, чтобы легализовать свой доход и получить налоговые льготы.</p>
+            </li>
+            <li>
+                <h3>Шаг 5: Выходите на линию и начинайте зарабатывать! (сразу после подключения)</h3>
+                <p><strong>Что делаем:</strong> Откройте приложение агрегатора, войдите в свой аккаунт и активируйте статус "На линии". Начинайте принимать заказы! Не забудьте, что ваш первый день работы в Яндекс Доставке через наш парк — без комиссии!</p>
+                <p><strong>Зачем:</strong> Чтобы получить свои первые деньги и оценить все преимущества работы курьером.</p>
+            </li>
+            <li>
+                <h3>Шаг 6: Оформите самозанятость (в течение 1-2 дней после начала работы)</h3>
+                <p><strong>Что делаем:</strong> Установите приложение "Мой налог", зарегистрируйтесь как самозанятый. Это займет несколько минут. Важно: для самозанятых налоги рассчитываются со всей суммы поступлений, без вычета расходов, но с возможностью получения стартового налогового бонуса 10 000 рублей.</p>
+                <p><strong>Зачем:</strong> Легальная работа, низкая налоговая ставка (6% для юрлиц), возможность получения налогового бонуса. Это выгоднее и безопаснее, чем работать "вчерную".</p>
+            </li>
+        </ol>
+        <p>На каждом этапе наши менеджеры готовы оказать вам поддержку и ответить на любые вопросы. Наша цель — сделать ваше подключение и начало работы максимально простым и быстрым!</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Ответы на возражения: честно о работе курьером</h2>
+        <p>Мы понимаем, что у вас могут быть сомнения и вопросы по поводу работы курьером. Мы собрали самые распространенные возражения и даем на них честные ответы.</p>
+
+        <ol>
+            <li>
+                <h3>"Я слышал, что курьерам очень мало платят"</h3>
+                <p><strong>Наш ответ:</strong> Уровень дохода курьера действительно сильно зависит от многих факторов, о которых мы открыто говорим: город, вид транспорта, количество отработанных часов, участие в слотах и доплатах, а также ваш опыт. В миллионниках, таких как Москва или Санкт-Петербург, где плотность заказов высокая и есть постоянный спрос, активный курьер может зарабатывать хорошие деньги. В небольших городах доходы, конечно, скромнее. Мы не обещаем "золотых гор", но гарантируем прозрачные условия и возможность для каждого заработать столько, сколько он готов приложить усилий. Первый день в Яндекс Доставке без комиссии — отличный способ попробовать и оценить реальный заработок в вашем городе.</p>
+            </li>
+            <li>
+                <h3>"Это работа только для молодых и выносливых"</h3>
+                <p><strong>Наш ответ:</strong> Это не совсем так. Конечно, пешие и велокурьеры должны быть в хорошей физической форме, но у нас есть множество успешных автокурьеров и даже грузовых курьеров, для которых физическая нагрузка значительно меньше. График работы гибкий, вы сами выбираете, сколько часов в день и в какие дни работать. Это позволяет адаптировать работу под свои возможности и возраст. Мы видим среди наших курьеров и студентов, и пенсионеров, и людей, которые используют эту работу как основной источник дохода или как подработку.</p>
+            </li>
+            <li>
+                <h3>"В этой работе много штрафов и скрытых комиссий"</h3>
+                <p><strong>Наш ответ:</strong> Со стороны нашего парка "ДОСТАВЬ-КА" нет скрытых комиссий или штрафов. Наша комиссия составляет 4% от суммы выполненных заказов, а первый день работы в Яндекс Доставке — 0%. Мы работаем максимально прозрачно, и все условия обговариваются при подключении. Агрегаторы, через которые вы получаете заказы (Яндекс Еда, Яндекс Доставка, TopGo), действительно имеют свою систему штрафов за нарушения правил (например, за отмену заказа без уважительной причины, опоздание, нарушение стандартов обслуживания). Эти правила прописаны в оферте агрегатора, и наша служба поддержки всегда готова помочь вам разобраться, чтобы избежать подобных ситуаций.</p>
+            </li>
+            <li>
+                <h3>"Я боюсь, что не справлюсь, у меня нет опыта"</h3>
+                <p><strong>Наш ответ:</strong> Опыт работы курьером не требуется. Все, что нужно, это желание работать и наличие необходимого транспорта. Агрегаторы предоставляют интуитивно понятные приложения, а мы, со своей стороны, обеспечиваем полную поддержку 24/7. Наши менеджеры помогут вам на каждом этапе: от подключения до решения проблем с заказами. Вы не останетесь один на один с трудностями. Главное — это ваше желание учиться и развиваться.</p>
+            </li>
+            <li>
+                <h3>"Это нестабильная работа, заказов может не быть"</h3>
+                <p><strong>Наш ответ:</strong> Количество заказов действительно может колебаться в зависимости от времени суток, дня недели, сезона и погодных условий. Однако, работая через крупные агрегаторы, такие как Яндекс Еда и Яндекс Доставка, вы имеете доступ к огромному потоку заказов, особенно в больших городах. Мы подключаем вас к нескольким агрегаторам, что увеличивает ваши шансы на получение постоянных заказов. Кроме того, вы можете использовать слоты и доплаты в пиковые часы для стабилизации и увеличения своего дохода. Умное планирование и активность позволяют минимизировать периоды без заказов.</p>
+            </li>
+        </ol>
+        <p>Надеемся, эти ответы помогли развеять ваши сомнения. Если у вас остались вопросы, не стесняйтесь задавать их нашим менеджерам при подключении!</p>
+    </div>
+</section></div></section>
+
+<a class="sticky-cta" href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener" aria-label="Подключиться в Telegram — первый день в Яндекс Доставке без комиссии"><span>Подключиться в Telegram</span><b>Доставка:&nbsp;1-й&nbsp;день&nbsp;0%</b></a>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="/"><img src="/img/logo-dark.webp" width="360" height="199" alt="ДОСТАВЬ-КА" loading="lazy" decoding="async"></a>
+        <p style="margin:0">Партнёрский парк Яндекс Про: подключаем курьеров к заказам Яндекс Еды и Яндекс Доставки. Комиссия парка 4%, первый день в Яндекс Доставке — без комиссии.</p>
+      </div>
+      <div>
+        <h3>Курьеру</h3>
+        <ul>
+          <li><a href="/#how">Как начать работать</a></li>
+          <li><a href="/#money">Сколько платят</a></li>
+          <li><a href="/#faq">Частые вопросы</a></li>
+          <li><a href="/articles/">Все статьи</a></li>
+          <li><a href="/gorod/">Города</a></li>
+          <li><a href="/zarplata/">Зарплата по городам</a></li>
+          <li><a href="/otzyvy/">Отзывы курьеров</a></li>
+          <li><a href="/rozygrysh/">Розыгрыш Daewoo Matiz</a></li>
+          <li><a href="/eda/">Курьер Яндекс Еды</a></li>
+          <li><a href="/kazakhstan/">Яндекс Еда в Казахстане</a></li>
+          <li><a href="/dostavka/">Курьер Яндекс Доставки</a></li>
+          <li><a href="/topgo/">Курьер TopGo</a></li>
+          <li><a href="/gruzovoy/">Грузовой тариф</a></li>
+          <li><a href="/leto/">Подработка на лето</a></li>
+          <li><a href="/zima/">Работа зимой</a></li>
+          <li><a href="/s-16-let/">Подработка с 16 лет</a></li>
+          <li><a href="/ip-kurieru/">ИП для курьера</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Связь</h3>
+        <ul>
+          <li><a href="https://t.me/Dostavka_park_bot?start=site" target="_blank" rel="noopener">Telegram-бот подключения</a></li>
+          <li><a href="https://max.ru/id280405521400_bot?start=site" target="_blank" rel="noopener">Мы в MAX</a></li>
+          <li><a href="https://t.me/dostaw_ka_chat" target="_blank" rel="noopener">Чат курьеров парка</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><a href="/contacts/">Контакты</a> · <a href="/sitemap.html">Карта сайта</a> · © 2026 ДОСТАВЬ-КА · ИП Колесников Роман Анатольевич · ИНН 280405521400 · ОГРНИП 313280105300046. Условия и требования сервиса могут меняться — актуальные уточняйте при подключении. <a href="/privacy/">Политика конфиденциальности</a></div>
+  </div>
+</footer>
+<script src="/main.js?v=52de47678f" defer></script>
+<script src="/dostavka_widget.js?v=52de47678f" defer></script>
+<script>(function(){var b=document.getElementById('themeBtn'),r=document.documentElement,m=document.querySelector('meta[name="theme-color"]');function ap(t){if(t==='dark'){r.setAttribute('data-theme','dark');b.textContent='☀️'}else{r.removeAttribute('data-theme');b.textContent='🌙'}if(m)m.setAttribute('content',t==='dark'?'#0a0c07':'#f6f8ee');var l=document.querySelector('.logo .vid-light'),d=document.querySelector('.logo .vid-dark');if(l&&d){l.style.display=t==='dark'?'none':'block';d.style.display=t==='dark'?'block':'none'}try{localStorage.setItem('dk-theme',t)}catch(e){}}if(b){if(r.getAttribute('data-theme')==='dark'){b.textContent='☀️';if(m)m.setAttribute('content','#0a0c07')}b.addEventListener('click',function(){ap(r.getAttribute('data-theme')==='dark'?'light':'dark')})}})()</script>
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(110973275, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/110973275" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</body>
+</html>
